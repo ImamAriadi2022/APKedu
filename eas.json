@@ -12,14 +12,6 @@
         "image": "default"
       }
     },
-    "preview3": {
-      "developmentClient": true,
-      "image": "default"
-    },
-    "preview4": {
-      "distribution": "internal",
-      "image": "default"
-    },
     "production": {
       "android": {
         "buildType": "app-bundle",
