@@ -18,11 +18,11 @@
     },
     "production": {
       "android": {
-        "buildType": "app-bundle",  // Ganti dengan build type yang sesuai (apk/app-bundle)
-        "gradleCommand": ":app:bundleRelease" // Gunakan gradleCommand yang sesuai jika perlu
+        "buildType": "app-bundle",  
+        "gradleCommand": ":app:bundleRelease"
       },
       "ios": {
-        "buildType": "release"  // Ganti dengan build type yang sesuai untuk iOS
+        "buildType": "release"  
       }
     }
   }
