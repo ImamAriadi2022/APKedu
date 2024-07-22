@@ -1,22 +1,29 @@
 {
-    "build": {
-      "preview": {
-        "android": {
-          "buildType": "apk"
-        }
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "preview3": {
+      "developmentClient": true
+    },
+    "preview4": {
+      "distribution": "internal"
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle",  // Ganti dengan build type yang sesuai (apk/app-bundle)
+        "gradleCommand": ":app:bundleRelease" // Gunakan gradleCommand yang sesuai jika perlu
       },
-      "preview2": {
-        "android": {
-          "gradleCommand": ":app:assembleRelease"
-        }
-      },
-      "preview3": {
-        "developmentClient": true
-      },
-      "preview4": {
-        "distribution": "internal"
-      },
-      "production": {}
+      "ios": {
+        "buildType": "release"  // Ganti dengan build type yang sesuai untuk iOS
+      }
     }
   }
-  
+}
