@@ -22,7 +22,7 @@
         "gradleCommand": ":app:bundleRelease"
       },
       "ios": {
-        "buildType": "release"  
+        "buildType": "ad-hoc"  
       }
     }
   }
